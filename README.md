@@ -14,10 +14,10 @@ Parkinson's disease (PD) is a prevalent neurodegenerative disorder that signific
 
 Key Features:
 
-Feature Extraction: Utilizes time-domain features (SWLNGP+CSP) and frequency-domain features (SPV) from EEG data.  
-Dimensionality Reduction: Employs an intelligent gray particle swarm optimization algorithm for effective feature selection.  
-Classifiers Evaluated: Includes k-Nearest Neighbors (KNN), Random Forest (RF), Support Vector Machine (SVM), and CNN.  
-Performance: Achieved the highest detection accuracy of 99.5% using the CNN classifier.
+Feature Extraction: Utilizes time-domain features and frequency-domain features from EEG data.  
+Dimensionality Reduction: an intelligent particle swarm optimization algorithm for effective feature selection.  
+Classifiers Evaluated: k-Nearest Neighbors (KNN), Random Forest (RF), Support Vector Machine (SVM), and CNN.  
+Performance: Achieved the highest detection accuracy of 99.5% using the CNN.
 
 Data Availability
 
