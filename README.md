@@ -36,11 +36,7 @@ EEG-MLP-IRPSO/
 │   ├── Part_1_Preprocessing_Feature_Extraction.ipynb
 │   ├── Part_2_CTGAN_Augmentation_IRPSO_Selection.ipynb
 │   ├── Part_3a_MLP_Classification_with_IRPSO.ipynb
-│   └── Part_3b_MLP_Classification_without_IRPSO.ipynb
-│
-├── results/                 
-└── data/
-    └── README.md             
+│   └── Part_3b_MLP_Classification_without_IRPSO.ipynb           
 ```
 
 | Notebook | Description |
