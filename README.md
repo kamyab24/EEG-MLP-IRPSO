@@ -33,10 +33,10 @@ EEG-MLP-IRPSO/
 ├── requirements.txt
 │
 ├── notebooks/
-│   ├── Part_1_Preprocessing_Feature_Extraction.ipynb
-│   ├── Part_2_CTGAN_Augmentation_IRPSO_Selection.ipynb
-│   ├── Part_3a_MLP_Classification_with_IRPSO.ipynb
-│   └── Part_3b_MLP_Classification_without_IRPSO.ipynb           
+│   ├── Part1_Preprocessing.ipynb
+│   ├── Part2_IRPSO_Selection.ipynb
+│   ├── Part3_with_IRPSO.ipynb
+│   └── Part3_without_IRPSO.ipynb           
 ```
 
 | Notebook | Description |
@@ -113,8 +113,8 @@ If you use this code or find our work useful, please cite:
                Generative Augmentation},
   author    = {Karimi, Kamyab and Ghodratnama, Ali and Tavakkoli-Moghaddam, Reza 
                and GhasemiRad, Sara and Wassan, Niaz},
-  journal   = {[Journal Name]},
-  year      = {[Year]},
+  journal   = {[Cluster Computing]},
+  year      = {[2026]},
   volume    = {[Volume]},
   pages     = {[Pages]},
   doi       = {[DOI]}
