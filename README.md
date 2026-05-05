@@ -94,11 +94,11 @@ Execute the notebooks sequentially:
 
 | Metric | With IRPSO | Without IRPSO |
 |--------|-------------------------:|----------------------------:|
-| Accuracy | **96.84%** | 90.25%* |
-| Precision | **97.87%** | 91.73%* |
-| AUC-ROC | **99.52%** | 96.65%* |
+| Accuracy | **96.84%** | 88.30%* |
+| Precision | **97.87%** | 92.39%* |
+| AUC-ROC | **99.52%** | 95.84%* |
 
-*\*Averaged across 5 runs; see Part 3b for full details.*
+*\*Averaged across 5 runs; see Part 3 for full details.*
 
 ---
 
