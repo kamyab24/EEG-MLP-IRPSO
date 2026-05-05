@@ -52,14 +52,6 @@ EEG-MLP-IRPSO/
 
 ---
 
-## Installation
-
-```bash
-git clone https://github.com/<your-username>/EEG-MLP-IRPSO.git
-cd EEG-MLP-IRPSO
-pip install -r requirements.txt
-```
-
 ### Dependencies
 
 - Python ≥ 3.9
