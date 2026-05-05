@@ -1,7 +1,7 @@
 # EEG-MLP-IRPSO: An Interpretable, Lightweight Framework for Early Parkinson's Disease Detection via Adaptive Feature Selection and Generative Augmentation
 
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
-[![TensorFlow 2.x](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)](https://www.tensorflow.org/)
+[![TensorFlow 2.10](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)](https://www.tensorflow.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ## Overview
@@ -10,7 +10,7 @@ This repository contains the complete source code for the paper:
 
 > **EEG-MLP-IRPSO: An Interpretable, Lightweight Framework for Early Parkinson's Disease Detection via Adaptive Feature Selection and Generative Augmentation**  
 > Kamyab Karimi, Ali Ghodratnama, Reza Tavakkoli-Moghaddam, Sara GhasemiRad, Niaz Wassan  
-> *[Journal Name, Year — update after publication]*
+> *Cluster Computing, 2026*
 
 We introduce **EEG-MLP-IRPSO**, a novel framework that synergizes multi-domain EEG feature extraction, a pioneering **Intelligent Relative Particle Swarm Optimization (IRPSO)** algorithm for optimal feature selection, and an optimized **Multilayer Perceptron (MLP)** classifier for early, non-invasive Parkinson's disease (PD) detection from EEG signals. The framework addresses critical challenges in EEG-based diagnosis, including high-dimensional feature spaces, class imbalance, data scarcity, and clinical interpretability.
 
@@ -38,17 +38,17 @@ EEG-MLP-IRPSO/
 │   ├── Part_3a_MLP_Classification_with_IRPSO.ipynb
 │   └── Part_3b_MLP_Classification_without_IRPSO.ipynb
 │
-├── results/                  # Selected output figures and tables (optional)
+├── results/                 
 └── data/
-    └── README.md             # Instructions on obtaining the EEG dataset
+    └── README.md             
 ```
 
 | Notebook | Description |
 |----------|-------------|
-| **Part 1** | EEG signal preprocessing (Wiener filtering, artifact removal), multi-domain feature extraction (time, frequency, spatial via CSP), and dimensionality reduction. |
+| **Part 1** | EEG signal preprocessing, multi-domain feature extraction, and dimensionality reduction. |
 | **Part 2** | CTGAN-based synthetic data generation, SMOTE oversampling, IRPSO feature selection with adaptive intelligence and DLO, and baseline evaluation with Gradient Boosting. |
-| **Part 3a** | MLP classifier training and evaluation on IRPSO-selected features (42 features), Keras Tuner hyperparameter optimization, KS-test validation of synthetic data, SHAP analysis, and multi-model comparison (Random Forest, XGBoost, AdaBoost). |
-| **Part 3b** | Ablation study — identical MLP pipeline executed without IRPSO feature selection (86 features) to quantify the contribution of the proposed feature selection stage. |
+| **Part 3a** | MLP classifier training and evaluation on IRPSO-selected features, Keras Tuner hyperparameter optimization, KS-test validation of synthetic data, SHAP analysis, and multi-model comparison. |
+| **Part 3b** | Ablation study — identical MLP pipeline executed without IRPSO feature selection to quantify the contribution of the proposed feature selection stage. |
 
 ---
 
@@ -83,7 +83,7 @@ A complete list is provided in `requirements.txt`.
 This study uses a publicly available resting-state EEG dataset of Parkinson's disease patients and healthy controls. Due to data redistribution policies, the raw dataset is not included in this repository.
 
 **Access instructions:**  
-> *[Provide the dataset name, source link, and any required access procedure here — e.g., "The dataset can be obtained from [OpenNeuro / PhysioNet / Kaggle] at: https://..."]*
+> The dataset can be obtained from https://openneuro.org/datasets/ds002778/versions/1.0.5
 
 After downloading, place the raw `.edf` / `.set` files in the `data/` directory before running Part 1.
 
@@ -104,7 +104,7 @@ Execute the notebooks sequentially:
 
 ## Results Summary
 
-| Metric | With IRPSO (42 features) | Without IRPSO (86 features) |
+| Metric | With IRPSO | Without IRPSO |
 |--------|-------------------------:|----------------------------:|
 | Accuracy | **96.84%** | 90.25%* |
 | Precision | **97.87%** | 91.73%* |
@@ -147,7 +147,6 @@ For questions or collaboration inquiries:
 
 - **Kamyab Karimi** — [k.karimi@student.utwente.nl](mailto:k.karimi@student.utwente.nl)  
   Department of Electrical Engineering, Mathematics and Computer Science, University of Twente, Netherlands  
-  Department of Industrial Engineering, Faculty of Engineering, Kharazmi University, Iran
 
 ---
 
