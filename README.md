@@ -117,7 +117,7 @@ If you use this code or find our work useful, please cite:
   year      = {[2026]},
   volume    = {[Volume]},
   pages     = {[Pages]},
-  doi       = {[DOI]}
+  doi       = {[10.1007/s10586-026-06203-9]}
 }
 ```
 
