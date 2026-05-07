@@ -135,9 +135,3 @@ For questions or collaboration inquiries:
 
 - **Kamyab Karimi** — [k.karimi@student.utwente.nl](mailto:k.karimi@student.utwente.nl)  
   Department of Electrical Engineering, Mathematics and Computer Science, University of Twente, Netherlands  
-
----
-
-## Acknowledgments
-
-We gratefully acknowledge the data providers and the open-source communities behind MNE, TensorFlow, SHAP, and CTGAN.
