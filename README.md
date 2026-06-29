@@ -106,19 +106,7 @@ Execute the notebooks sequentially:
 
 If you use this code or find our work useful, please cite:
 
-```bibtex
-@article{karimi2025eegmlpirpso,
-  title     = {EEG-MLP-IRPSO: An Interpretable, Lightweight Framework for Early 
-               Parkinson's Disease Detection via Adaptive Feature Selection and 
-               Generative Augmentation},
-  author    = {Karimi, Kamyab and Ghodratnama, Ali and Tavakkoli-Moghaddam, Reza 
-               and GhasemiRad, Sara and Wassan, Niaz},
-  journal   = {[Cluster Computing]},
-  year      = {[2026]},
-  volume    = {[Volume]},
-  pages     = {[Pages]},
-  doi       = {[10.1007/s10586-026-06203-9]}
-}
+  doi       = {[https://doi.org/10.1007/s10586-026-06203-9]}
 ```
 
 ---
