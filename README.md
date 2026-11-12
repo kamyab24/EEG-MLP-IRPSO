@@ -86,19 +86,15 @@ Execute the notebooks sequentially:
 3. **Part 3a** — Trains and evaluates the optimized MLP on IRPSO-selected features with full SHAP analysis.
 4. **Part 3b** — Runs the ablation study without IRPSO for comparative evaluation.
 
-> **Note:** Random seeds are set throughout the pipeline to ensure reproducibility. Minor numerical variations may occur across different hardware/GPU configurations.
-
 ---
 
 ## Results Summary
 
 | Metric | With IRPSO | Without IRPSO |
 |--------|-------------------------:|----------------------------:|
-| Accuracy | **96.84%** | 88.30%* |
-| Precision | **97.87%** | 92.39%* |
-| AUC-ROC | **99.52%** | 95.84%* |
-
-*\*Averaged across 5 runs; see Part 3 for full details.*
+| Accuracy | **96.84%** | 88.30% |
+| Precision | **97.87%** | 92.39% |
+| AUC-ROC | **99.52%** | 95.84% |
 
 ---
 
