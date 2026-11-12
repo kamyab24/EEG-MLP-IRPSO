@@ -12,13 +12,13 @@ This repository contains the complete source code for the paper:
 > Kamyab Karimi, Ali Ghodratnama, Reza Tavakkoli-Moghaddam, Sara GhasemiRad, Niaz Wassan  
 > *Cluster Computing, 2026*
 
-We introduce **EEG-MLP-IRPSO**, a novel framework that synergizes multi-domain EEG feature extraction, a pioneering **Intelligent Relative Particle Swarm Optimization (IRPSO)** algorithm for optimal feature selection, and an optimized **Multilayer Perceptron (MLP)** classifier for early, non-invasive Parkinson's disease (PD) detection from EEG signals. The framework addresses critical challenges in EEG-based diagnosis, including high-dimensional feature spaces, class imbalance, data scarcity, and clinical interpretability.
+We introduce EEG-MLP-IRPSO, a novel framework that synergizes multi-domain EEG feature extraction, a pioneering Intelligent Relative Particle Swarm Optimization (IRPSO) algorithm for optimal feature selection, and an optimized Multilayer Perceptron (MLP) classifier for early, non-invasive Parkinson's disease (PD) detection from EEG signals. The framework addresses critical challenges in EEG-based diagnosis, including high-dimensional feature spaces, class imbalance, data scarcity, and clinical interpretability.
 
 ### Key Contributions
 
 - **IRPSO Algorithm**: A novel feature selection method featuring adaptive intelligence and dimension learning optimization (DLO), designed to overcome conventional challenges in high-dimensional EEG data.
 - **Hybrid Data Augmentation**: A combined CTGAN + SMOTE strategy to address data scarcity and class imbalance.
-- **Optimized MLP Classifier**: Hyperparameter-tuned via Keras Tuner, achieving **96.84% accuracy**, **97.87% precision**, and **99.52% AUC-ROC**.
+- **Optimized MLP Classifier**: Hyperparameter-tuned via Keras Tuner, achieving 96.84% accuracy, 97.87% precision, and 99.52% AUC-ROC.
 - **SHAP-based Interpretability**: SHapley Additive exPlanations analysis confirming the clinical relevance of selected features.
 
 ---
@@ -52,12 +52,12 @@ EEG-MLP-IRPSO/
 
 - Python ≥ 3.9
 - NumPy, Pandas, SciPy
-- MNE (EEG signal processing)
+- MNE
 - scikit-learn
 - TensorFlow / Keras
 - Keras Tuner
-- CTGAN (`ctgan`)
-- imbalanced-learn (`imblearn`)
+- CTGAN 
+- imbalanced-learn
 - SHAP
 - XGBoost
 - Matplotlib, Seaborn
@@ -86,7 +86,7 @@ Execute the notebooks sequentially:
 3. **Part 3a** — Trains and evaluates the optimized MLP on IRPSO-selected features with full SHAP analysis.
 4. **Part 3b** — Runs the ablation study without IRPSO for comparative evaluation.
 
-> **Note:** Random seeds are set (`random_state=42`) throughout the pipeline to ensure reproducibility. Minor numerical variations may occur across different hardware/GPU configurations.
+> **Note:** Random seeds are set throughout the pipeline to ensure reproducibility. Minor numerical variations may occur across different hardware/GPU configurations.
 
 ---
 
@@ -113,7 +113,7 @@ If you use this code or find our work useful, please cite:
 
 ## License
 
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ---
 
